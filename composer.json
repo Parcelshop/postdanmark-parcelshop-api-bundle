@@ -12,6 +12,7 @@
   "require": {
     "symfony/dependency-injection": "~2.6",
     "symfony/http-kernel": "~2.6",
+    "symfony/config": "^2.6",
     "lsv/pd-parcelshop-api": "~1.0"
   },
   "autoload": {
