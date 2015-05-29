@@ -1,0 +1,9 @@
+parameters:
+    lsv_pddk_api.class: Lsv\PddkApiBundle\Service\Parcelshop
+    lsv_pddk_api.country: DK
+    lsv_pddk_api.client: null
+
+services:
+    lsv_pddk_api.parcelshop:
+        class: %lsv_pddk_api.class%
+        arguments: [%lsv_pddk_api.consumerid%, %lsv_pddk_api.country%, %lsv_pddk_api.client%]
